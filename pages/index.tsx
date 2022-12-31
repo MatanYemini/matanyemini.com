@@ -11,11 +11,11 @@ export default function Home() {
         <>
             <Head>
                 <title>Matan Yemini</title>
-                <meta name="description" content="Matan Yemini" />
+                <meta name="description" content="Matan Yemini - Software & Product" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className={styles.main}>
+            <main className="bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
                 <Header />
 
                 {/* Hero */}
