@@ -22,7 +22,7 @@ function Hero({}: Props) {
                 width="0"
                 height="0"
                 sizes="100vw"
-                className="relative rounded-full h-32 w-32 mx-auto"
+                className="relative rounded-full h-32 w-32 mx-auto object-cover"
             />
             <div className="z-20">
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[12px]">Software & Product</h2>
@@ -35,7 +35,7 @@ function Hero({}: Props) {
                         <button className="heroButton">About</button>
                     </Link>
                     <Link href="#exprience">
-                        <button className="heroButton">Exprience</button>
+                        <button className="heroButton">Contact me</button>
                     </Link>
                 </div>
             </div>
