@@ -8,7 +8,7 @@ type Props = {};
 
 function Hero({}: Props) {
     const [text, _count] = useTypewriter({
-        words: ["Matan Yemini", "<Consultant />"],
+        words: ["Matan Yemini", "R&D Director"],
         loop: true,
         delaySpeed: 1500,
     });
@@ -16,7 +16,7 @@ function Hero({}: Props) {
         <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
             <BackgroundCircles />
             <Image
-                src="https://matanyemini.s3.eu-north-1.amazonaws.com/Matan_headshot.jpg"
+                src="https://d2ldb6hpndi77k.cloudfront.net/Matan_headshot.jpg"
                 alt="Matan Yemini's Picture"
                 priority
                 width="0"
@@ -34,8 +34,8 @@ function Hero({}: Props) {
                     <Link href="#about">
                         <button className="heroButton">About</button>
                     </Link>
-                    <Link href="#exprience">
-                        <button className="heroButton">Contact me</button>
+                    <Link href="#contact">
+                        <button className="heroButton">Contact</button>
                     </Link>
                 </div>
             </div>
