@@ -17,7 +17,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="overflow-x-hidden bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+            <main className="overflow-x-hidden overflow-y-scroll bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin">
                 <Header />
 
                 {/* Hero */}
