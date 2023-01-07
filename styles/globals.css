@@ -27,6 +27,12 @@ a {
 
 @layer components {
     .heroButton {
-        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 w-40;
+        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm 
+            tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 w-40;
+    }
+
+    .contantInput {
+        @apply outline-none bg-slate-400/40 rounded-sm border-b px-4 py-4
+            border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A] hover:border-[#F7AB0A]/40;
     }
 }
