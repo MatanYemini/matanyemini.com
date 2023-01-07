@@ -17,8 +17,8 @@ function About() {
                 <p className="text-base leading-8 md:text-2xl md:leading-10 pointer-events-none">
                     I am Matan 👋, R&D leader with a track record of building products within tight timelines and
                     budgets. Extremely results-oriented and proactive in addressing and resolving problems though
-                    cross-functional collaboration. Over the years I have built development groups from scratch that
-                    spreads to multiple geographic locations, and have gained exprience in building embedded
+                    cross-functional collaboration. Over the years, I have built development groups from scratch that
+                    spread on multiple geographic locations. Also, I have gained exprience in building embedded
                     applications, distributed systems, web applications and creating impact driven development culture.
                     Currently, at Engageli.
                 </p>
