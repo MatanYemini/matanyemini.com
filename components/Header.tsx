@@ -45,7 +45,7 @@ function Header({}: Props) {
                 className="flex flex-row items-center cursor-pointer text-gray-300"
             >
                 <SocialIcon className="cursor-pointer" network="email" fgColor="gray" bgColor="transparent" />
-                <Link href={"#contact"}>
+                <Link href="#contact">
                     <button className="uppercase hidden md:inline-flex text-sm text-gray-400">Get in Touch</button>
                 </Link>
             </motion.div>
