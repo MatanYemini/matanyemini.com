@@ -17,6 +17,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content="Matan Yemini,Software,Product,Startups" />
                 <meta name="google-site-verification" content="MQkqrrrRxNbHOt3n5AdYdjlx0-oVOhQBuvfe5pDGmpA" />
+                <link rel="canonical" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Script
