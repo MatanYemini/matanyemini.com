@@ -16,6 +16,9 @@ export default function Home() {
                 <meta name="description" content="Matan Yemini - Software and Product" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="keywords" content="Matan Yemini,Software,Product,Startups" />
+                <meta property="og:title" content="Matan Yemini" />
+                <meta property="og:description" content="Matan Yemini - Software and Product" />
+                <meta property="og:image" content="https://d2ldb6hpndi77k.cloudfront.net/Matan_headshot.jpg" />
                 <meta name="google-site-verification" content="MQkqrrrRxNbHOt3n5AdYdjlx0-oVOhQBuvfe5pDGmpA" />
                 <link rel="canonical" />
                 <link rel="icon" href="/favicon.ico" />
@@ -36,7 +39,11 @@ export default function Home() {
                 `}
             </Script>
 
-            <main className="overflow-x-hidden overflow-y-scroll bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin">
+            <article
+                itemScope
+                itemType="https://schema.org/Article"
+                className="overflow-x-hidden overflow-y-scroll bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin"
+            >
                 <Header />
 
                 {/* Hero */}
@@ -53,7 +60,7 @@ export default function Home() {
                 <section id="contact" className="snap-start">
                     <ContactMe />
                 </section>
-            </main>
+            </article>
         </>
     );
 }

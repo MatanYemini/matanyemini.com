@@ -13,7 +13,11 @@ function Hero({}: Props) {
         delaySpeed: 1500,
     });
     return (
-        <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+        <div
+            itemScope
+            itemType="https://schema.org/Author"
+            className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden"
+        >
             <BackgroundCircles />
             <Image
                 src="https://d2ldb6hpndi77k.cloudfront.net/Matan_headshot.jpg"
