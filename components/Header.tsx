@@ -26,7 +26,7 @@ function Header({}: Props) {
             >
                 <SocialIcon url="https://www.linkedin.com/in/matan-yemini" fgColor="gray" bgColor="transparent" />
                 <SocialIcon url="https://github.com/MatanYemini" fgColor="gray" bgColor="transparent" />
-                <SocialIcon url="https://medium.com/@matanyemini800" fgColor="gray" bgColor="transparent" />
+                <SocialIcon url="https://medium.com/@Matan-Yemini" fgColor="gray" bgColor="transparent" />
             </motion.div>
             <motion.div
                 initial={{
