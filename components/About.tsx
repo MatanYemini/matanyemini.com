@@ -15,12 +15,9 @@ function About() {
                     </h4>
                 </div>
                 <p className="text-base leading-8 md:text-2xl md:leading-10 pointer-events-none">
-                    I am Matan 👋, R&D leader with a track record of building products within tight timelines and
-                    budgets. Extremely results-oriented and proactive in addressing and resolving problems though
-                    cross-functional collaboration. Over the years, I have built development groups from scratch that
-                    spread on multiple geographic locations. Also, I have gained experience in building embedded
-                    applications, distributed systems, web applications and creating impact driven development culture.
-                    Currently, at Engageli.
+                    Hi, I’m Matan 👋 – an R&D Leader who passionately solves problems and builds products people love. I
+                    deliver innovative solutions on time and on budget, build global high-performing teams, and foster
+                    an impact-driven culture. Currently driving innovation at Engageli.
                 </p>
             </motion.div>
         </div>
