@@ -27,12 +27,22 @@ a {
 
 @layer components {
     .heroButton {
-        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm 
-            tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 w-40;
+        @apply px-4 md:px-6 py-2 border border-[#242424] rounded-full uppercase text-xs md:text-sm 
+            tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40 w-32 md:w-40;
     }
 
     .contantInput {
-        @apply outline-none bg-slate-400/40 rounded-sm border-b px-4 py-4
+        @apply outline-none bg-slate-400/40 rounded-sm border-b px-3 py-3 md:px-4 md:py-4
             border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A] hover:border-[#F7AB0A]/40;
+    }
+}
+
+/* Add safe area insets for mobile */
+@supports (padding: max(0px)) {
+    body {
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
     }
 }

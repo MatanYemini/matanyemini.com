@@ -42,7 +42,7 @@ export default function Home() {
             <article
                 itemScope
                 itemType="https://schema.org/Article"
-                className="overflow-x-hidden overflow-y-scroll bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin"
+                className="overflow-x-hidden overflow-y-auto bg-[#242424] text-white h-screen snap-y snap-mandatory z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar-thin"
             >
                 <Header />
 

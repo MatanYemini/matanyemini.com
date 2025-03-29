@@ -7,7 +7,7 @@ type Props = {};
 
 function Header({}: Props) {
     return (
-        <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+        <header className="sticky top-0 p-3 md:p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
             <motion.div
                 initial={{
                     x: -500,
@@ -24,9 +24,24 @@ function Header({}: Props) {
                 }}
                 className="flex flex-row items-center"
             >
-                <SocialIcon url="https://www.linkedin.com/in/matan-yemini" fgColor="gray" bgColor="transparent" />
-                <SocialIcon url="https://github.com/MatanYemini" fgColor="gray" bgColor="transparent" />
-                <SocialIcon url="https://medium.com/@Matan-Yemini" fgColor="gray" bgColor="transparent" />
+                <SocialIcon
+                    url="https://www.linkedin.com/in/matan-yemini"
+                    fgColor="gray"
+                    bgColor="transparent"
+                    style={{ height: 40, width: 40 }}
+                />
+                <SocialIcon
+                    url="https://github.com/MatanYemini"
+                    fgColor="gray"
+                    bgColor="transparent"
+                    style={{ height: 40, width: 40 }}
+                />
+                <SocialIcon
+                    url="https://medium.com/@Matan-Yemini"
+                    fgColor="gray"
+                    bgColor="transparent"
+                    style={{ height: 40, width: 40 }}
+                />
             </motion.div>
             <motion.div
                 initial={{

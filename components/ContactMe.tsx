@@ -58,9 +58,9 @@ function ContactMe() {
                     />
                     <motion.button
                         type="submit"
-                        whileHover={{ scale: 1.15 }}
-                        whileTap={{ rotateZ: 15 }}
-                        className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="bg-[#F7AB0A] py-3 md:py-5 px-6 md:px-10 rounded-md text-black font-bold text-sm md:text-base"
                     >
                         Submit
                     </motion.button>
