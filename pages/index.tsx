@@ -5,22 +5,32 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import ContactMe from "../components/ContactMe";
 import Script from "next/script";
+import { useRouter } from "next/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+    const router = useRouter();
+    const canonicalUrl = `https://matanyemini.com${router.asPath}`;
+
     return (
         <>
             <Head>
                 <title>Matan Yemini</title>
-                <meta name="description" content="Matan Yemini - Software and Product" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="keywords" content="Matan Yemini,Software,Product,Startups" />
+                <meta
+                    name="description"
+                    content="Matan Yemini - R&D Leader and GenAI expert specializing in LLMs, cybersecurity, and web development. Building practical AI solutions and distributed teams that deliver real impact."
+                />
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+                <meta name="keywords" content="Matan Yemini,Software,Product,Startups,R&D Leader,GenAI,LLM,AI" />
                 <meta property="og:title" content="Matan Yemini" />
-                <meta property="og:description" content="Matan Yemini - Software and Product" />
+                <meta
+                    property="og:description"
+                    content="Matan Yemini - R&D Leader and GenAI expert specializing in LLMs, cybersecurity, and web development. Building practical AI solutions and distributed teams."
+                />
                 <meta property="og:image" content="https://d2ldb6hpndi77k.cloudfront.net/Matan_headshot.jpg" />
                 <meta name="google-site-verification" content="MQkqrrrRxNbHOt3n5AdYdjlx0-oVOhQBuvfe5pDGmpA" />
-                <link rel="canonical" />
+                <link rel="canonical" href={canonicalUrl} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Script
